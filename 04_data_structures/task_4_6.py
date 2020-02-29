@@ -22,5 +22,9 @@ print('''
     AD/Metric:             {}
     Next-Hop:              {}
     Last update:           {}
-    Outbound Interface:    {}'''.format(ospf_route[0], ospf_route[1], ospf_route[2].strip('[]'),
-                                                     ospf_route[4].replace(',', ''), ospf_route[5].replace(',', ''), ospf_route[6]))
+    Outbound Interface:    {}'''.format(ospf_route[0],
+                                        ospf_route[1],
+                                        ospf_route[2].strip('[]'),
+                                        ospf_route[4].replace(',', ''),
+                                        ospf_route[5].replace(',', ''),
+                                        ospf_route[6]))

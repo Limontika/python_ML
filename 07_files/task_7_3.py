@@ -17,3 +17,9 @@
 Ограничение: Все задания надо выполнять используя только пройденные темы.
 
 '''
+with open('CAM_table.txt', 'r') as file:
+    i=0
+    for line in file:
+        if i>5 :
+            print(line.rstrip())
+        i+=1
